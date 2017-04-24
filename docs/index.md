@@ -1,4 +1,4 @@
-## 安装教程
+## gitlab安装教程
 
 你可以 [editor on GitHub](https://github.com/bubyday/gitlab/edit/master/index.md) 编辑这个文件在
 
@@ -27,12 +27,11 @@ sudo dpkg -i gitlab_7.2.1-omnibus-1_amd64.deb
 
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### 推荐使用服务器
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bubyday/gitlab/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+腾讯云服务器2G以上内存
 
-### Support or Contact
+### 支持与联系
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+暂时没有
