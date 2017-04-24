@@ -1,29 +1,30 @@
-## Welcome to GitHub Pages
+## 安装教程
 
-You can use the [editor on GitHub](https://github.com/bubyday/gitlab/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+你可以 [editor on GitHub](https://github.com/bubyday/gitlab/edit/master/index.md) 编辑这个文件在
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+安装包下载地址：
+[gitlab](https://packages.gitlab.com/gitlab/gitlab-ce) 下载deb 支持ubuntu系统的安装包
 
-### Markdown
+### 简单安装说明：
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+建议使用ubuntu 安装，测试过很多的版本感觉ubuntu的还是最稳定的。
 
 ```markdown
-Syntax highlighted code block
+这样下载好了算是开始安装了 稍安勿躁 安装运行中
 
-# Header 1
-## Header 2
-### Header 3
+首先是下载安装包
 
-- Bulleted
-- List
+wget https://downloads-packages.s3.amazonaws.com/ubuntu-14.04/gitlab_7.2.1-omnibus-1_amd64.deb
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+sudo apt-get install openssh-server
+//ssl 服务器
+sudo apt-get install postfix
+//请求 服务器
+sudo dpkg -i gitlab_7.2.1-omnibus-1_amd64.deb
+//安装
 
-[Link](url) and ![Image](src)
+
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
